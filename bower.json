@@ -34,24 +34,18 @@
         "ui-router": "0.3.2",
         "underscore"            : "1.8.3"
     },
-    "overrides"     : {
-        "angular"               : {
-            "dependencies"      : {
-                "jquery"        : "1.9.1 - 2"
-            }
-        },
-        "angular-i18n"          : {
-            "main"              : "angular-locale_es-mx.js"
-        },
-        "blueimp-file-upload"   : {
-            "main"  : [
-                "js/vendor/jquery.ui.widget.js",
-                "js/jquery.iframe-transport.js",
-                "js/jquery.fileupload.js"
-            ]
-        },
-        "webcomponentsjs"       : {
-            "main"  : "webcomponents-lite.min.js"
-        }
+    "angular-i18n": {
+      "main": "angular-locale_es-mx.js"
+    },
+    "blueimp-file-upload": {
+      "main": [
+        "js/vendor/jquery.ui.widget.js",
+        "js/jquery.iframe-transport.js",
+        "js/jquery.fileupload.js"
+      ]
+    },
+    "webcomponentsjs": {
+      "main": "webcomponents-lite.min.js"
     }
+  }
 }
